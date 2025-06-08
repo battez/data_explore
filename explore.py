@@ -40,3 +40,5 @@ print(df.tail())
 
 print(df[['MatchTime', 'FTResFactor', 'HomeRed', 'AwayRed','EloDiff','HomeShots', 'AwayShots' ]].corr())   
 
+print(df[['HomeTeam', 'AwayTeam','EloDiff','FTResult']]).head(50)
+# plots
